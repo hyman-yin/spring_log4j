@@ -11,13 +11,7 @@ public class TestController {
 	
 	@RequestMapping("/test")
 	public String test(){
-		logger.info("log1:调用后台test方法，返回test.jsp");
-		logger.info("log2:调用后台test方法，返回test.jsp");
-		logger.info("log3:调用后台test方法，返回test.jsp");
-		logger.info("log4:调用后台test方法，返回test.jsp");
-		logger.info("log5:调用后台test方法，返回test.jsp");
-		logger.info("log6:调用后台test方法，返回test.jsp");
-		logger.info("log7:调用后台test方法，返回test.jsp");
+		logger.info("log:调用后台test方法，返回test.jsp");
 		return "test";
 	}
 
